@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+}
+
+.header{
+    background-color:  #13293d;
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.card{
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.card header{
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
+}
+
+.card img{
+    width: 100%;
+    display: flex;
+    min-width: 400px;
+}
